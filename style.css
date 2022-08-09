@@ -1,0 +1,376 @@
+*{/*CSS RESET*/
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    width: 960px;
+    height: 150px;
+    border: 5px solid #000;
+    background-size: 960px 150px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #f5e50e; 
+}
+
+#a1{
+    width: 450px;
+    height: 30px;
+    border: 0px solid #000;
+    margin-left: 375px;
+    margin-top: 50px;  
+ 
+}
+    #a1 h1{
+        font-size: xx-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        color:rgb(255, 255, 255);
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.9);
+    }
+
+#a2{
+    width: 120px;
+    height: 120px;
+    border: 0px solid #000;
+    margin-left: 50px;
+    margin-top: -60px;
+    background-image: url(img/1.jpg.opdownload);
+    background-size: 100% 100%;
+    border-radius: 100%;
+}
+
+nav{
+    width: 964px;
+    height: 55px;
+    margin-top: 30px;
+    margin-left: 318px;
+    margin: 0 auto;
+}
+
+#n1{
+   width: 48%; 
+   height: 200px;
+   border: 5px solid #000;
+   float: left;
+   margin-top: 10px;
+   background-color: #f5e50e; 
+}
+    #n1 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 45px
+    }
+        #n1 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 25px
+        }
+
+#n2{
+   width: 48%; 
+   height: 200px;
+   border: 5px solid #000;
+   float: right;
+   margin-top: 10px;
+   background-color: #f5e50e; 
+}
+    #n2 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 45px
+    }
+        #n2 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 25px
+        }
+#n3{
+    width: 99%; 
+    height: 55px;
+    border: 5px solid #000;
+    float: right;
+    margin-top: 10px;
+    background-color: #f5e50e; 
+ }
+    #n3 h2{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: xx-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 45px
+    }
+
+main{
+    width: 962px;
+    height: 964px;
+    border: 0px solid #000;
+    background-size: 960px 150px;
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+
+#a3{
+    border: 2px solid #000;
+    width: 100%;
+    height: 1050px;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    float: left;
+    background-color: #f5e50e; 
+}
+
+#s5{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    background-color: #ffffff;
+}
+    #s5 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 45px
+    }
+        #s5 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 25px
+        }
+
+#s6{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    background-color: #ffffff;
+    background-image: url(img/2.png);
+    background-size: 100% 100%;
+}
+
+#s7{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    background-color: #ffffff;
+}
+    #s7 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 45px
+    }
+        #s7 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 25px
+        }
+#s8{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    background-color: #ffffff;
+    background-image: url(img/3.png);
+    background-size: 100% 100%;
+}
+
+#s9{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    background-color: #ffffff;
+}
+    #s9 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 45px
+    }
+        #s9 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 25px
+        }
+#s10{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    background-color: #ffffff;
+    background-image: url(img/4.png);
+    background-size: 100% 100%;
+}
+
+#s11{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    background-color: #ffffff;
+}
+    #s11 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 30px
+    }
+        #s11 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 20px
+        }
+#s12{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    background-color: #ffffff;
+    background-image: url(img/5.png);
+    background-size: 100% 100%;
+}
+
+#s13{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    background-color: #ffffff;
+}
+    #s13 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 30px
+    }
+        #s13 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 25px
+        }
+#s14{
+    border: 2px solid #000;
+    width: 45%;
+    height: 150px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    background-color: #ffffff;
+    background-image: url(img/6.png);
+    background-size: 100% 100%;
+}
+
+#s15{
+    border: 2px solid #000;
+    width: 45%;
+    height: 240px;
+    margin-left: 5px;
+    margin-top: 5px;
+    float: left;
+    background-color: #ffffff;
+}
+    #s15 h1{
+        padding: 0 10px 0 10px;
+        text-shadow: 2px 3px 3px rgba(7, 7, 7, 0.4);
+        font-size: x-large;
+        font-weight: bolder;
+        font-family:Arial, Helvetica, sans-serif ;
+        line-height: 45px
+    }
+        #s15 p{
+            padding: 0 10px 0 10px;
+            font-size: medium;
+            font-weight: bolder;
+            font-family:Arial, Helvetica, sans-serif ;
+            line-height: 25px
+        }
+#s16{
+    border: 2px solid #000;
+    width: 45%;
+    height: 240px;
+    margin-right: 5px;
+    margin-top: 5px;
+    float: right;
+    background-color: #ffffff;
+    background-image: url(img/7.png);
+    background-size: 100% 100%;
+}
+
+
+footer{
+        width: 960px;
+        height: 40px;
+        border: 2px solid #000;
+        margin: 0 auto;
+        clear: both;
+        margin-top: 502px;
+        background-color: #f5e50e; 
+}
+footer p{
+    color: #000;
+    font-size: small;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+    line-height: 25px
+}
